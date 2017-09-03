@@ -6,7 +6,7 @@ use SimpleBus\SymfonyBridge\DependencyInjection\Compiler\ConfigureMiddlewares;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 
-class ConfigureMiddlewaresTest extends \PHPUnit_Framework_TestCase
+class ConfigureMiddlewaresTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var ContainerBuilder
